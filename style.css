@@ -66,6 +66,16 @@ h1 { font-size: clamp(3rem, 8vw, 5.8rem); line-height: 1.1; margin: 12px 0 24px;
 .shape { position: absolute; border-radius: 50%; background: var(--green-light); }
 .shape-one { width: 120px; height: 120px; top: 15px; right: 25px; }
 .shape-two { width: 75px; height: 75px; bottom: 20px; left: 20px; background: #d7eee3; }
+.profile-photo {
+  width: 145px;
+  height: 145px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 15px 35px rgba(31,122,90,.2);
+}
 
 .section { padding-block: 100px; }
 .section-soft { background: var(--soft); }
